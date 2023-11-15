@@ -81,7 +81,7 @@ const blinkCursor = () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   blinkCursor();
-  setTimeout(init, 3500);
+  setTimeout(init, 2500);
   getRandomGames();
 });
 
