@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+h1 { 
+	color: rgb(255, 255, 255); 
+	margin-bottom: -5px; 
+} 
+p { 
+	margin-bottom: -10px; 
+} 
+body{
+	background-image: -webkit-linear-gradient(90deg, #000000, rgb(222, 132, 132));
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height:96vh;
+    
+    flex-direction:column;
+}
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+} 
+.cell { 
+	border: none; 
+	width: 80px; 
+	height: 80px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 24px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+/* 3*3 Grid */
+#b1{ 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+} 
+
+#b2 { 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b3 { 
+	border-bottom: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b4 { 
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+} 
+	
+#b5 { 
+	border: 1px solid gray; 
+} 
+
+#b6 { 
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b7 { 
+	border-top: 1px solid gray; 
+	border-right: 1px solid gray; 
+} 
+
+#b8 { 
+	border-top: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b9 { 
+	border-top: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+/* Reset Button */
+#but { 
+	box-sizing: border-box; 
+	width: 95px; 
+	height: 40px; 
+	border: 1px solid dodgerblue; 
+	margin-left: auto; 
+	border-radius: 8px; 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+
+	background-color: rgb(255, 255, 255); 
+	color: dodgerblue; 
+	font-size: 20px; 
+	cursor: pointer; 
+} 
+
+/* Player turn space */
+#print { 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+	color: dodgerblue; 
+	font-size: 30px; 
+} 
+
+/* Main Container */
+#main { 
+	text-align: center; 
+} 
+
+/* Game Instruction Text */
+#ins { 
+	font-family: Verdana,Geneva, 
+					Tahoma, sans-serif; 
+	color: rgb(120, 162, 204); 
+	font-size: x-large;
+}
+.button {
+	box-sizing: border-box; 
+	width: 95px; 
+	height: 40px; 
+	border: 1px solid dodgerblue; 
+	border-radius: 8px; 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+
+	background-color: rgb(255, 255, 255); 
+	color: dodgerblue; 
+	font-size: 20px; 
+	cursor: pointer; 
+	margin-left: 47%;
+}

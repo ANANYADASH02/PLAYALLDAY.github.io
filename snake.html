@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="snake.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <button class="button" onclick="window.location.href = 'gamess.html';">Back</button>
+    <div class="body">
+      
+      </button>
+      <div id="scoreBox">Score: 0</div>
+      
+      <div id="board"></div>
+      <div id="intro">
+        <h3 style="color: rgb(1, 189, 189)">Introduction:</h3>
+        <br />
+        <ol style="color: rgb(253, 255, 255)">
+          <li>Use the arrow keys to move the snake.</li>
+          <li>Grab the food to increase the score.</li>
+          <li>
+            The game ends when the snake<br />
+            with itself or the walls.
+          </li>
+        </ol>
+      </div>
+    </div>
+    <style>
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(4, 63, 97);
+        color: white;
+        text-align: center;
+        height: 40px;
+        align-items: center;
+      }
+    </style>
+
+    
+  </body>
+  <script src="snake.js"></script>
+</html>

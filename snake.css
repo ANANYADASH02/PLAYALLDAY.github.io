@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+  text-align: center;
+
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: -webkit-linear-gradient(90deg, #000000, #27079a);
+}
+#scoreBox {
+  position: absolute;
+  top: 9px;
+  right: 200px;
+  font-size: 39px;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+   color:white ;
+}
+
+#hiscoreBox {
+  position: absolute;
+  top: 59px;
+  right: 140px;
+  font-size: 39px;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+}
+#board {
+  background-image: -webkit-linear-gradient(
+    80deg,
+    rgb(26, 229, 240),
+    rgb(167, 46, 238)
+  );
+  width: 80vmin;
+  height: 85vmin;
+  border-radius: 10px;
+
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+
+  position: absolute;
+  left: 31%;
+  top: 5%;
+}
+#intro {
+  text-align: left;
+  font-size: 23px;
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  font-family: 'Varela Round', sans-serif;
+}
+.button {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 25px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 10px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 3%;
+  top:5%;
+  background-color: #ff00ff;
+  border-radius: 4px;
+}
+
+.head {
+    background-color: rgb(255, 0, 242);
+  
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+  
+}
+.snake {
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+}
+
+.food {
+  background-color: black;
+  
+}

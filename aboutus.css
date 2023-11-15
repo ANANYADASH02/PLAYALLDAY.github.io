@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: 'Press Start 2P',sans-serif;
+  background-image: -webkit-linear-gradient(90deg, #000000, #14bfc2);
+min-height:175vh;
+display:flex;
+flex-direction:column;
+overflow-x:hidden;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+nav{
+    background-color:none; 
+  }
+  .menu{
+    display:flex;
+    list-style:none;
+    padding:8px;
+  }
+  .menu li{
+    margin-right:10px;
+  }
+  .menu a{
+    color:white;
+    text-decoration:none;
+    font-family: 'Press Start 2P',sans-serif;
+  }
+  .submenu{
+    display:none;
+    position:absolute;
+    background-color:#000000;
+    list-style:none;
+    padding:10px;
+  }
+  header{
+    display:flex;
+    align-items:center;
+    padding: 0.5px;
+    background-color: rgb(0, 0, 0);
+    color:rgb(253, 254, 255);
+    font-family: 'Press Start 2P',sans-serif;
+    font-size: 30px;
+    }
+
+.logo img{
+    max-height: 90px;
+  
+  }
+  
+  
+  li a:hover{
+   
+    color:rgb(0, 255, 234);
+    }
+
+
+
+
+nav {
+
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 600px;
+    height: 950px;
+    padding: 15px;
+    background-color: rgb(221, 157, 205,0.5);
+    box-shadow: 10px 10px rgb(214, 43, 109);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px; 
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}
+.blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place it behind other elements */
+    background-image: url('mainbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(1px); 
+}
+
+  .menu{
+    display:flex;
+    list-style:none;
+    padding:10px;
+  }
+  .menu li{
+    margin-right:10px;
+  }
+  .menu a{
+    color:white;
+    text-decoration:none;
+  }
+  img{
+    max-width:100%;
+    height:auto;
+  }
+  .submenu{
+    display:none;
+    position:absolute;
+    background-color:#000000;
+    list-style:none;
+    padding:8px;
+  }

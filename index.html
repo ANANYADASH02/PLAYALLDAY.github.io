@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>PlayAllDay</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="College logo">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="aboutus.html">About</a></li>
+                <li> <a href="gamess.html">Games</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="blur-background"></div><br>
+    <h1 class="heading">
+        <span id="0">P</span>
+        <span id="1">L</span>
+        <span id="2">A</span>
+        <span id="3">Y</span>
+        <span id="4">-</span>
+        <span id="5">A</span>
+        <span id="6">L</span>
+        <span id="7">L</span>
+        <span id="8">-</span>
+        <span id="9">D</span>
+        <span id="10">A</span>
+        <span id="11">Y</span>
+        <br><br>
+        <div class="home-msg">
+            <span
+                class="home-msg-txt"
+                data-wait="3500"
+                data-words='["Welcome to FunZone", "Wanna play?"]'
+            ></span>
+            <span class="msg-cursor">_</span>
+        </div>
+    </h1>
+    <br>
+    <main>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="whack-a-mole.jpeg" style="width:95%">
+                <div class="text" style="color: black;">Hit as many moles as you can under 60 seconds!</div>
+                  <button class="btn" onclick="window.location.href = 'whackamole.html';">Play now</button> 
+            </div>
+            <div class="mySlides fade">
+                <img src="snakeee.jpg" style="width:95%">
+                <div class="text">The classic Nokia snake game!</div>
+                <button class="btn" onclick="window.location.href ='snake.html';">Play now</button>
+            </div>
+            <div class="mySlides fade">
+                <img src="simonee.png" style="width:95%">
+                <div class="text" style="color: rgb(255, 255, 255);">How long of a sequence can you remember?</div>
+                <button class="btn" onclick="window.location.href = 'simone.html';">Play now</button>
+            </div>
+        </div>
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>
+    </main>
+    <br>
+    <br>
+    <footer>
+        <div class="footer content">
+            <p>&copy; 2023 NMAMIT, All rights reserved</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
