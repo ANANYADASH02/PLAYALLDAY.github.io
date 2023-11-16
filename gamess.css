@@ -20,6 +20,13 @@ background-size: cover;
 background-attachment: fixed;
 
 }
+  .submenu{
+    display:none;
+    position:absolute;
+    background-color:#000000;
+    list-style:none;
+    padding:10px;
+  }
 
 
  header{
@@ -44,10 +51,10 @@ nav{
   .menu{
     display:flex;
     list-style:none;
-    padding:10px;
+    padding:8px;
   }
   .menu li{
-    margin-right:20px;
+    margin-right:10px;
   }
   .menu a{
     color:white;
