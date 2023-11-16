@@ -23,7 +23,7 @@ background-attachment: fixed;
 
 
 /* Header Styles*/
- header{
+  header{
   display:flex;
   align-items:center;
   padding:7px;
@@ -32,7 +32,6 @@ background-attachment: fixed;
   font-family: 'Press Start 2P',sans-serif;
   font-size:20px;
   }
-
 .logo img{
 max-height:70px;
 }
