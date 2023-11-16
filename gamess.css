@@ -22,8 +22,7 @@ background-attachment: fixed;
 }
 
 
-/* Header Styles*/
-  header{
+ header{
   display:flex;
   align-items:center;
   padding:7px;
