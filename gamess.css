@@ -23,14 +23,15 @@ background-attachment: fixed;
 
 
 /* Header Styles*/
-header{
-display:flex;
-align-items:center;
-padding:20px;
-background-color:rgb(0, 0, 0) ;
-color:rgb(241, 241, 255);
-font-family: 'Press Start 2P',sans-serif;
-}
+ header{
+  display:flex;
+  align-items:center;
+  padding:7px;
+  background-color: rgb(0, 0, 0);
+  color:rgb(253, 254, 255);
+  font-family: 'Press Start 2P',sans-serif;
+  font-size:20px;
+  }
 
 .logo img{
 max-height:70px;
